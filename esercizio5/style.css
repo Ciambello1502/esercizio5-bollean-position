@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 80%;
+    height: 80vh;
+    background-color: green;
+}
+
+.container{
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 255);
+    position: relative;
+}
+
+.quadrato{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.container .due{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container .quatro{
+    position: absolute;
+    left: 15px;
+}
